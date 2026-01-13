@@ -1,0 +1,27 @@
+{
+  "name": "book-list",
+  "version": "1.0.0",
+  "description": "List the books that you've read and give them ratings and reviews. Basically Letterboxd but for books",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrens-lee/book-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrens-lee/book-list/issues"
+  },
+  "homepage": "https://github.com/wrens-lee/book-list#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "pg": "^8.16.3"
+  }
+}
