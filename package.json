@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/wrens-lee/book-list#readme",
   "dependencies": {
+    "axios": "^1.13.2",
     "ejs": "^3.1.10",
     "express": "^5.2.1",
     "nodemon": "^3.1.11",

@@ -1,0 +1,20 @@
+.hidden {
+  display: none;
+} 
+
+.rating-date{
+  display: flex;
+}
+
+/* for card hover transitions */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.submit{
+  justify-content: center;
+}

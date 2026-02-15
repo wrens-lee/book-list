@@ -1,0 +1,37 @@
+<%- include('partials/header.ejs') %>
+
+<div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-2 mb-2 fst-italic border-bottom">
+        My Honest Take On: 
+      </h3>
+
+      <article class="blog-post">
+        <h1 class="blog-post-title mb-1"><%= book.title %></h1>
+        <div class="rating-date">
+            <p class="blog-post-meta me-2 mb-0"><strong>Read on: </strong><%= book.date_read %></p>
+            <p class="mb-0"><strong>Book Rating:</strong> <%= book.rating %>/5</p>
+        </div>
+        
+        <hr class="m-2">
+        <p> <%= book.review %> </p>
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 bg-light rounded">
+          <h4 class="fst-italic">Cover:</h4>
+          <img 
+                src="https://covers.openlibrary.org/b/id/<%= book.cover %>-L.jpg" 
+                class="card-img-top" 
+                alt="Cover of <%= book.title %>"
+                width="100%" 
+                height="100%"
+                style="object-fit: cover;"
+            >
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<%- include('partials/footer.ejs') %>
